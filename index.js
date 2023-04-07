@@ -66,7 +66,7 @@ newspapers.forEach((newspaper) => {
 
 
 app.get('/', (req, res) => {
-    res.send("Hello World!");
+    res.send("Hello, Welcome To The Climate News App");
 });
 
 app.get('/news', (req, res) => {
